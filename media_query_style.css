@@ -1,0 +1,39 @@
+@media (max-width: 1000px) {
+  .cover {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .product_types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav--desktop {
+    display: none;
+  }
+  .nav_itm--desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu_bar--mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .cover {
+    background-position-x: -500px;
+  }
+  .company_name {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .product_types {
+    width: 60%;
+  }
+}
