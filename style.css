@@ -213,10 +213,10 @@ body {
 }
 
 .sidebar {
+  display: none;
   height: calc(100% - 64px);
-  display: flex;
   width: 80%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: var(--sec_color);

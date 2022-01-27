@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility_style.css" />
     <link rel="stylesheet" href="media_query_style.css" />
+    <script type="text/javascript" src="script.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="app">
       <div class="header">
-        <button class="menu_bar menu_bar--mobile"></button>
+        <button id="menu-bar" onclick="toggleMenuBar()" class="menu_bar menu_bar--mobile"></button>
         <div class="nav nav--desktop">
           <a class="nav_itm" href="">About us</a>
           <a class="nav_itm" href="">Repelent</a>
@@ -70,7 +71,7 @@
       </div>
       <div class="footer"></div>
     </div>
-    <div class="sidebar">
+    <div id="sidebar" class="sidebar">
       <div class="vertical_nav">
         <a class="nav_itm" href="">About us</a>
         <a class="nav_itm" href="">Repelent</a>
