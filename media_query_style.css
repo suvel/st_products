@@ -17,6 +17,12 @@
   .products {
     grid-template-columns: 1fr 1fr;
   }
+  .col-6 {
+    grid-column: 1/3;
+  }
+  .form_container {
+    max-width: 80%;
+  }
 }
 
 @media (min-width: 800px) {

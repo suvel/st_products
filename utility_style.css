@@ -1,3 +1,7 @@
 .max-500 {
   max-width: 500px;
 }
+
+.col-12 {
+  grid-column: 1/3;
+}

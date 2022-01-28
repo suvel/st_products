@@ -30,7 +30,12 @@ body {
 
 button {
   border: none;
-  background-color: transparent;
+  font-family: Poppins-Medium;
+  background-color: var(--primary_btn);
+  color: var(--primary_btn_f_color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px 0;
 }
 
 .app {
@@ -94,8 +99,8 @@ button {
   height: 27px;
   background-image: url("./asset/img/menu_bar.svg");
   margin: auto 0;
+  border-radius: 0;
   background-color: transparent;
-  border: none;
 }
 
 .menu_bar:hover {
@@ -217,14 +222,14 @@ button {
 
 .products {
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 4rem;
   gap: 10px 2px;
 }
 .product {
   display: grid;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   width: 158px;
   height: 215px;
 
@@ -258,11 +263,6 @@ button {
 }
 
 .add_to_cart {
-  background: var(--primary_btn);
-  color: var(--primary_btn_f_color);
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 5px 0;
   width: 117px;
 }
 
@@ -292,4 +292,33 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.contact_us_container {
+  display: grid;
+  place-items: center;
+}
+
+.contact_us_label {
+  color: var(--sec_color);
+}
+
+.form_container {
+  display: grid;
+  max-width: 507px;
+  gap: 10px 20px;
+}
+
+.form_container :is(input, textarea) {
+  width: 100%;
+  padding: 5px;
+}
+
+.send_message {
+  width: 150px;
+  float: right;
+}
+
+label {
+  font-size: 16px;
 }

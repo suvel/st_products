@@ -280,6 +280,5 @@ function handelOnWindowLoad() {
     const prdHMLStr = createProduct(curVal.img, curVal.name, curVal.price);
     return acc + prdHMLStr;
   }, "");
-  debugger
   products.innerHTML = productsHtmlString;
 }
