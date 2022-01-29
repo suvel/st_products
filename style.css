@@ -110,9 +110,8 @@ button {
 }
 
 .main_container {
-  margin: 4rem 0 0 0;
+  padding: 4rem 0 0 0;
   width: 100%;
-  padding: 0 0 3rem 0;
 }
 
 .cover {
@@ -168,7 +167,7 @@ button {
 }
 
 .content {
-  padding: 5px 10px;
+  padding: 4rem 10px 0 10px;
   font-family: Poppins-ExtraLight;
 }
 
@@ -344,4 +343,44 @@ label {
   background-size: cover;
   width: 322.49px;
   height: 319px;
+}
+
+.bg_full {
+  background-image: url("./asset/img/bg_full.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+
+.login_content {
+  position: relative;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.login_form_container {
+  display: grid;
+  gap: var(--form_title_body-gap);
+  place-items: center;
+}
+
+.login_form_container button {
+  margin: 1rem auto;
+  display: block;
+  float: none;
+}
+
+.form_title--white {
+  color: var(--font_bright);
+}
+
+.company_name_container {
+  position: relative;
+  width: 100%;
+  min-height: 108px;
+  display: grid;
+  place-items: center;
 }

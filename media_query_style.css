@@ -2,6 +2,9 @@
   .cover {
     grid-template-columns: auto;
   }
+  .login_content {
+    grid-template-columns: auto;
+  }
 }
 
 @media (max-width: 800px) {
@@ -47,6 +50,9 @@
   }
   .company_name {
     font-size: 2.25rem;
+  }
+  .bg_full {
+    background-position-x: -287px;
   }
 }
 
