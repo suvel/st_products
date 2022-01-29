@@ -23,6 +23,13 @@
   .form_container {
     max-width: 80%;
   }
+  .banner--desktop {
+    display: none;
+  }
+  .register_container {
+    grid-template-columns: 1fr;
+    margin: 2rem 0;
+  }
 }
 
 @media (min-width: 800px) {
