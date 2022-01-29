@@ -373,6 +373,10 @@ label {
   float: none;
 }
 
+.login_form_container label{
+  color: var(--font_bright);
+}
+
 .form_title--white {
   color: var(--font_bright);
 }
